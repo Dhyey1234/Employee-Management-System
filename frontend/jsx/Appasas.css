@@ -1,0 +1,85 @@
+.container {
+  font-family: Arial, sans-serif;
+  padding: 30px;
+  max-width: 900px;
+  margin: auto;
+  background-color: #fefcfb;
+}
+
+.nav {
+  margin-bottom: 30px;
+}
+
+.nav-link {
+  margin-right: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #5a5a5a;
+}
+
+.nav-link:hover {
+  color: #556b2f;
+}
+
+.input {
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  background-color: #faf9f6;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #6b705c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.button.delete {
+  background-color: #b00020;
+  margin-left: 10px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+}
+
+.table th {
+  background-color: #a5a58d;
+  color: white;
+  padding: 12px;
+  text-align: left;
+}
+
+.table td {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+  background-color: #f8f9f4;
+}
+
+.table a {
+  color: #4d4d4d;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.table a:hover {
+  color: #556b2f;
+}
+
+.filters {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
